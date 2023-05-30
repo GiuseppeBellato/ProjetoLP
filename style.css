@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    font-family: "inter";
+}
+
+#logo {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#titulo-menusuperior {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#texto-menusuperior {
+    margin-left: 150px;
+    margin-top: 35px;
+    padding-bottom: 100px;
+}
+
+#menusuperior {
+    background-image: url(./Imagens/fundo-menusuperior.svg);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+    color: white;
+}
+
+#menuinformacional {
+    background-color:  #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icone {
+    margin: 50px 0px 50px 100px;
+    padding: 25px;
+}
+
+.textoinformativo {
+   display: flex;
+   align-items: center;
+}
+
+#secaovideo{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#video {
+    margin:50px 25px 50px 100px
+}
+
+#titulo-video {
+    color: #247BA0;
+    margin: 75px 0px 40px 0px ;
+
+}
+
+#texto-video {
+    color: black;
+    
+}
+
+#carrossel{
+    background-color: #247BA0;
+    padding: 25px;
+}
+
+#titulo-carrossel{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 25px;
+}
+
+#div-card {
+    margin-top: 25PX;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    
+}
+
+.card {
+    margin-left: 25px; 
+}
+
+#seta-esquerda {
+    display: none;
+}
+
+#seta-direita {
+    display: flex;
+}
+
+#bruna {
+    display: none;
+}
+
+#samantha {
+    display: flex;
+}
+
+#leonardo {
+    display: flex;
+}
+
+.seta {
+    margin-top: 60px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.seta:hover {
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+}
+
+#formulario {
+    text-align: center;
+}
+
+#titulo-formulario {
+    font-size: 25px;
+    margin: 25px;
+    color: #383838;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input:focus {
+    transform: scale(1.05);
+}
+
+button{
+    background-color: #247BA0;
+    height: 40px;
+    width: 250px;
+    color: #e2e2e2;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #136385;
+    color: white;
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+    box-shadow: 0px 20px 20px 0px #0b3242 ;
+
+}
